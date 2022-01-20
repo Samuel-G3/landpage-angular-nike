@@ -10,6 +10,7 @@ import { HeroComponent } from './features/home/components/hero/hero.component';
 import { GalleryComponent } from './features/home/components/gallery/gallery.component';
 import { HeaderComponent } from './features/home/components/header/header.component';
 import { ImageComponent } from './shared/components/image/image.component';
+import { FooterComponent } from './features/home/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ImageComponent } from './shared/components/image/image.component';
     HeroComponent,
     GalleryComponent,
     HeaderComponent,
-    ImageComponent
+    ImageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

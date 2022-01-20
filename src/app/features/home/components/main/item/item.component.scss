@@ -1,9 +1,31 @@
- 
-
-.sale{ 
-    color:red;
+h3 {
+  display: flex;
+  justify-content: center;
+  &:hover {
+    transition: 0.8s;
+    transform: scale(1.1);
+  }
 }
-.price{
-    text-decoration: line-through;
-     
+.img {
+  display: flex;
+  justify-content: center;
+  &:hover {
+    transition: 0.8s;
+    transform: scale(1.05);
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.596);
+    border: 1px solid black;
+  }
+}
+.sale {
+  color: red;
+
+  &:hover {
+    font-size: 20px;
+    transition: 0.8s;
+    transform: scale(1.1);
+  }
+}
+
+.price {
+  text-decoration: line-through;
 }

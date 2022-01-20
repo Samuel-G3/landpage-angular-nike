@@ -1,0 +1,1 @@
+solved problem vercel. Do not use uppercase at routes modules.

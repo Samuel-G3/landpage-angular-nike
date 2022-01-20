@@ -5,6 +5,7 @@
     align-items: center;
     img {
       width: 80%;
+      box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.596);
     }
     p {
       padding: 20px;
@@ -12,6 +13,9 @@
       word-break: keep-all;
       margin-left: 40px;
       margin-right: 40px;
+      &:hover{
+        background-color: #f6f6f6;
+      }
 
     }
     

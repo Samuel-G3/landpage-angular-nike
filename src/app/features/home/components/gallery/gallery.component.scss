@@ -8,9 +8,15 @@
     img {
       height: 300px;
       padding: 10px;
-      border: 1px solid black;
+      
       margin: 5px;
       
     background-color: #f6f6f6;
+    &:hover {  
+      border: 1px solid black;
+      transition: 0.8s;
+      transform: scale(1.1);
+      box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.596); 
+    }
     }
   }

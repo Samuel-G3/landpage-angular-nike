@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Hero } from '../../models/Home';
+import { Hero } from 'src/app/features/home/models/home';
 @Component({
   selector: 'app-hero',
   templateUrl: './hero.component.html',

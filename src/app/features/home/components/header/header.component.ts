@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Header } from '../../models/Home';
+import { Header } from 'src/app/features/home/models/home';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
         alt: "Logo de Nike",
       },
       name: "NIKE",
-      created: "Zapatillas - Hombre",
+      category: "Zapatillas - Hombre",
     }
   }
 

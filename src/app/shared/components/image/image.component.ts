@@ -1,7 +1,8 @@
 import { Input } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 
-import { Image} from '../../models/Shared';
+import { Image} from 'src/app/shared/models/shared'
+//'../../models/Shared';
 @Component({
   selector: 'app-image',
   templateUrl: './image.component.html',

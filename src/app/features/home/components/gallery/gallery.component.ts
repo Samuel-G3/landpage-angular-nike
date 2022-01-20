@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Gallery } from '../../models/Home';
+import { Gallery } from 'src/app/features/home/models/home';
 @Component({
   selector: 'app-gallery',
   templateUrl: './gallery.component.html',

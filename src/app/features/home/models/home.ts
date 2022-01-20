@@ -1,9 +1,10 @@
-import { Image } from "src/app/shared/models/Shared";
+import { Image } from 'src/app/shared/models/shared.js'
+//"src/app/shared/models/Shared";
 
 export interface Header {
     img: Image;
     name: string;
-    created: string;
+    category: string;
 }
 
 export interface Hero {
@@ -23,4 +24,11 @@ export interface Main {
 export interface Gallery {
     title: string;
     imageGallery: Image[]
+}
+
+export interface Footer {
+    img: Image;
+    img2: Image;
+    text: string;
+    created: string;
 }
