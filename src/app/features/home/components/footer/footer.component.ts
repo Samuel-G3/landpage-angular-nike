@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Footer } from '../../models/Home';
+import { Footer } from '../../models/home';
 
 @Component({
   selector: 'app-footer',
